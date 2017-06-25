@@ -1,0 +1,33 @@
+{
+  "name": "fcc-file-metadata",
+  "version": "0.0.1",
+  "description": "freeCodeCamp File Metadata Microservice",
+  "main": "app.js",
+  "engines": {
+    "node": "7.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "node app.js PORT=5001",
+    "go": "watchexec -e js -r yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danielmoi/file-metadata.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "file",
+    "metadata"
+  ],
+  "author": "Daniel Moi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/danielmoi/file-metadata/issues"
+  },
+  "homepage": "https://github.com/danielmoi/file-metadata#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
