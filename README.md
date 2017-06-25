@@ -5,7 +5,9 @@
 ## API
 
 ```
-GET
+GET /
+
+POST /upload
 ```
 
 
@@ -21,13 +23,16 @@ GET
 ## Example usage (Search):
 
 ```
-
+(upload file using API / client form)
 ```
 
 ----
 ## Example output:
 
 ```js
-
-
+{
+  originalname: "favicon.ico",
+  mimetype: "image/vnd.microsoft.icon",
+  size: 1150
+}
 ```
